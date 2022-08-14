@@ -23,7 +23,7 @@ export default function Card() {
                     </div>
                 )
             })}
-            <p className=" absolute bottom-0 font-bold text-[10px]">Swipe left to view more..</p>
+            <p className=" absolute bottom-1 font-bold text-[10px]">Swipe left to view more..</p>
         </div>
     )
 }
