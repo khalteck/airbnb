@@ -3,7 +3,7 @@ import photoGrid from "../images/photo-grid.png";
 
 export default function Top() {
     return (
-        <div className="w-full p-[36px]">
+        <div className="w-full px-[36px] py-[30px]">
             <img alt="" src={photoGrid} className="w-[395px] mx-[auto] mb-[20px]" />
             <div>
                 <h1 className="text-[36px] font-[600] mb-[10px]">Online Expenses</h1>

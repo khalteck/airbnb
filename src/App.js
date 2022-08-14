@@ -5,7 +5,7 @@ import Card from "./components/Card";
 
 export default function App() {
     return (
-       <div className="w-[550px] bg-white rounded-lg relative">
+       <div className="w-[100vw] md:w-[550px] bg-white rounded-lg relative top-[-7px]">
             <Navbar/>
             <Top/>
             <Card/>
