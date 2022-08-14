@@ -17,7 +17,7 @@ export default function Box(props) {
                 <p><span className="font-[600]">{props.item.stats.rating}</span> <span className="text-gray-500">({props.item.stats.reviewCount}) - {props.item.location}</span></p>
             </div>
             <p className="text-[12px] my-1">{props.item.title}</p>
-            <p className="text-[10px] my-1">From <span className="font-[600]">{props.item.price}</span> / person</p>
+            <p className="text-[10px] my-1">From <span className="font-[600]">${props.item.price}</span> / person</p>
         </div>
     )
 }
