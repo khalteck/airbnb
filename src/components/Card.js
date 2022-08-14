@@ -5,7 +5,7 @@ import data from "../data";
 
 export default function Card() {
     return (
-        <div className="pl-[36px] pb-[30px] w-[100vw] md:w-[550px] flex flex-nowrap gap-[20px] overflow-x-auto">
+        <div className="pl-[36px] pb-[30px] w-[100vw] md:w-[550px] flex flex-nowrap gap-[20px] overflow-x-auto relative">
             {data.map((item) => {
                 return (
                     <div className="w-[176px]">
@@ -23,7 +23,7 @@ export default function Card() {
                     </div>
                 )
             })}
-            
+            <p className=" absolute bottom-0 font-bold text-[10px]">Swipe left to view more..</p>
         </div>
     )
 }
